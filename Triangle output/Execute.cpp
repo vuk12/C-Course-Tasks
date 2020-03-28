@@ -1,7 +1,7 @@
-///!!!!! Triangle output 
-// Program which provide console output in shape of triangle (e.g.). 
-// The input parametars are character and lenght of triangle side.
-//              
+/// !!!!!!!!!!! Custom console triangle output
+// A program that provides console output in the shape of a triangle (e.g.).
+// The input parameters are the character and length of the triangle side.
+            
 //    *
 //   **
 //  ***
@@ -26,11 +26,7 @@ int main()
 	cout << endl << endl << endl;
 
 	string emptySpaces = " ";
-	
 	string symbols = "";
-
-	//cout << symbol << endl;
-	//cout << emptySpaces + symbol;
 
 
 	for (int i = 1; i<=sideLength; i++)
